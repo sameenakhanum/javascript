@@ -71,3 +71,67 @@
 // for(var i=0; i<= animals.length -1; i++) {
 //     console.log(animals[i]);
 // }
+
+
+
+// object : collection of key value pair
+
+// var student = {
+//     name: 'sameena',
+//     age: 22,
+//     address: 'banglore, karnataka'
+// };
+// console.log(student);
+
+// accessing the object using dot notation
+
+// console.log(student.name);
+// console.log(student.age);
+// console.log(student.address);
+
+// accessing the object using bracket notation
+
+// console.log(student['name']);
+// console.log(student['age']);
+// console.log(student['address']);
+
+// var student ={
+//     name: 'sameena khanum',
+//     age: 22,
+//     address:{
+//         city: 'Banglore',
+//         area: 'Bapujinagar',
+//         pinCode: 560026
+//     }
+// }
+// console.log(student);
+// console.log(student.name);
+// console.log(student.address.city);
+// console.log(student['address']['area']);
+
+
+// var student ={
+//         name: 'sameena khanum',
+//         age: 22,
+//         address:{
+//             city: 'Banglore',
+//             area: 'Bapujinagar',
+//             pinCode: 560026
+//         }
+//     }
+
+//     var student2 = student;
+//     console.log(student);
+//     console.log(student2);
+
+// function inside the object called method
+
+// var video={
+//     name: 'access 101 js tutorial',
+//     play: function(){
+//         console.log('video played');
+//     }
+// }
+// console.log(video.name);
+// console.log(video.play());
+
